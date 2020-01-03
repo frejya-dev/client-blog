@@ -1,0 +1,83 @@
+body {
+    background-image: url("/Users/frejya/Desktop/blog-post/white_brick_wall.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h1 { 
+    font-family: 'Abril Fatface', cursive;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 140px;
+    margin: auto;
+    text-align: center;
+    text-transform: none;
+    color: #555353;
+    width: 70%;
+}
+
+p {
+    color: #555353;
+    font-size: 20px;
+    padding: 30px;
+    /* margin: 50px; */
+    text-align: center;
+}
+
+.container-1 {
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-bottom: 25px;
+}
+
+.container-2 {
+    float: right;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-top: 25px;
+}
+
+
+.img-1 {
+    float:left;
+    padding: 50px;
+}
+
+.img-2 {
+    float:right;
+    padding: 50px;
+}
+
+.button-content {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+    background: #d6f8f5;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #3A3737;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #AFEEEE;
+    transition: ease 0.5s all;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+    margin: 0 auto;
+}
+
+a:hover {
+    background: #91cfca;
+    border: 1px solid rgb(255, 255, 255);
+    color: #3A3737;
+}
