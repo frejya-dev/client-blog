@@ -1,1 +1,1 @@
-# client-blog-assignment
+# mockup-client-blog
